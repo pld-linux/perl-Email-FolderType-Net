@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	FolderType-Net
+%define		pdir	Email
+%define		pnam	FolderType-Net
 Summary:	Email::FolderType::Net - Recognize folder types for network based message protocols
 Summary(pl):	Email::FolderType::Net - Rozpoznawanie typu folderu dla protoko³ów sieciowych
 Name:		perl-%{pdir}-%{pnam}
