@@ -29,7 +29,10 @@ Registers several mail folder types that are known as network based
 messaging protocols. Folder names for these protocols should be
 specified using a URI syntax.
 
-#%description -l pl
+%description -l pl
+Ta klasa rejestruje kilka rodzajów folderów pocztowych znanych jako
+sieciowe protoko³y komunikacji. Nazwy folderów dla tych protoko³ów
+powinny byæ podawane przy u¿yciu sk³adni URI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
