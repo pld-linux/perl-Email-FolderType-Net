@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	93b7de6f21979ccbf1f9bb1c00ccf57c
 URL:		http://search.cpan.org/dist/Email-FolderType-Net/
 %if %{with tests}
-BuildRequires:	perl-Email-LocalDelivery
+BuildRequires:	perl-Email-FolderType >= 0.8
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
