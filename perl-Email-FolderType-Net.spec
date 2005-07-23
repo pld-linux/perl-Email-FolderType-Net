@@ -7,14 +7,14 @@
 %define		pnam	FolderType-Net
 Summary:	Email::FolderType::Net - Recognize folder types for network based message protocols
 Summary(pl):	Email::FolderType::Net - Rozpoznawanie typu folderu dla protoko³ów sieciowych
-Name:		perl-%{pdir}-%{pnam}
-Version:	1.02
+Name:		perl-Email-FolderType-Net
+Version:	1.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7b4ab80e9e5d85c8bc10d7097dd5e07c
+# Source0-md5:	93b7de6f21979ccbf1f9bb1c00ccf57c
 URL:		http://search.cpan.org/dist/Email-FolderType-Net/
 %if %{with tests}
 BuildRequires:	perl-Email-LocalDelivery
