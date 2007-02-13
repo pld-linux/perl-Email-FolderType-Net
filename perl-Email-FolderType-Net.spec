@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	FolderType-Net
 Summary:	Email::FolderType::Net - Recognize folder types for network based message protocols
-Summary(pl.UTF-8):   Email::FolderType::Net - Rozpoznawanie typu folderu dla protokołów sieciowych
+Summary(pl.UTF-8):	Email::FolderType::Net - Rozpoznawanie typu folderu dla protokołów sieciowych
 Name:		perl-Email-FolderType-Net
 Version:	1.04
 Release:	1
