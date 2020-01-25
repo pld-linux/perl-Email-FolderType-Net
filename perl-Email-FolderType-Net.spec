@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Email
 %define		pnam	FolderType-Net
 Summary:	Email::FolderType::Net - Recognize folder types for network based message protocols
