@@ -7,16 +7,18 @@
 Summary:	Email::FolderType::Net - Recognize folder types for network based message protocols
 Summary(pl.UTF-8):	Email::FolderType::Net - Rozpoznawanie typu folderu dla protokołów sieciowych
 Name:		perl-Email-FolderType-Net
-Version:	1.041
-Release:	2
+Version:	1.043
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	37ebccb31b937d4c83ea6a73aa772c99
+Source0:	https://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	185e94de7bba23e199a77ecf1f9c9278
 URL:		http://search.cpan.org/dist/Email-FolderType-Net/
 %if %{with tests}
+BuildRequires:	perl-Capture-Tiny
 BuildRequires:	perl-Email-FolderType >= 0.8
+BuildRequires:	perl-URI >= 1.35
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
